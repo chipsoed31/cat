@@ -8,6 +8,7 @@ public class MiniGameScene0 : MonoBehaviour
 {
     public TMP_Text timerText;  // Таймер
     public TMP_Text resultText;  // Результат
+    public TMP_Text bestScoreText;
     public Button clickButton;  // Кнопка кликов
     public Button closeButton;
 
@@ -52,6 +53,11 @@ public class MiniGameScene0 : MonoBehaviour
         // Показываем результат
         
         resultText.text = "Твои клики: " + clickCount;
+        if(clickCount > PlayerPrefs.GetInt("BestClickerScore", 0)){
+            PlayerPrefs.SetInt("BestClickerScore", clickCount);
+            bestScoreText.text = "Новый рекорд!: " + clickCount + " кликов!";
+        }
+        else{bestScoreText.text = "Рекорд: " + PlayerPrefs.GetInt("BestClickerScore", 0) + " кликов";}
 
         // Начисляем награду
         if (clickCount > 0)
