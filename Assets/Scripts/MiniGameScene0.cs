@@ -51,7 +51,6 @@ public class MiniGameScene0 : MonoBehaviour
         clickButton.interactable = false;
 
         // Показываем результат
-        
         resultText.text = "Твои клики: " + clickCount;
         if(clickCount > PlayerPrefs.GetInt("BestClickerScore", 0)){
             PlayerPrefs.SetInt("BestClickerScore", clickCount);
