@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      settings-icon-2048x2048-bez1g4bs 1_0: -2915441369840508410
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

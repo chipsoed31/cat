@@ -1,0 +1,55 @@
+[33mcommit bb4c0c418b26a0234a89516d1c8ea4d966f3422c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Wed Mar 12 19:16:56 2025 +0500
+
+    Нормальная, рабочая, собранная версия
+
+[33mcommit c4b3b149541b3f8c570d2f57f18dc9d50215e62f[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 23:21:45 2025 +0500
+
+    добавлен курсор, иконка, вообщем player settings настроены, все UI выравнены под 1920 1080
+
+[33mcommit 86c5ba0b0af12163e316bb9479adcd15e287bd99[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 21:40:16 2025 +0500
+
+    cursor popravka 2
+
+[33mcommit 5de8e6cc2e03ddf0256e5bc58d67a44f6603ce4d[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 21:37:53 2025 +0500
+
+    Курсор поправки
+
+[33mcommit 1b19ce5b3046ea43ec311c750d7ba3f6b69e0b18[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 21:34:40 2025 +0500
+
+    Настроены Player Settings
+
+[33mcommit 84ff272913b7f2a6a9eaae24d719d0684a721678[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 19:26:24 2025 +0500
+
+    Revert "убрал пробелы лол"
+    
+    This reverts commit 07175a2147aea50474363d49e9d4394befa06709.
+
+[33mcommit 07175a2147aea50474363d49e9d4394befa06709[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 19:03:09 2025 +0500
+
+    убрал пробелы лол
+
+[33mcommit ae8f80cfab990df264a02a8d07c7ed558869c0a5[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 19:01:38 2025 +0500
+
+    Добавлен вывод текста рекорда в кликере и бестскоркликер в плейер префс
+
+[33mcommit 02816b2e032e530c443fb5d020e6231d25e5346e[m
+Author: Daniel <kurasov_dm@mail.ru>
+Date:   Tue Mar 11 18:14:53 2025 +0500
+
+    Добавление проекта
