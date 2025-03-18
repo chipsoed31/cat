@@ -119,7 +119,7 @@ public void HungerTired()
             salary = earnedCoins + PlayerPrefs.GetInt("Coins", 50);
             PlayerPrefs.SetInt("Coins", salary);
         }
-        
+        Time.timeScale = 0f;
         // Обновляем и сохраняем рекорд, если нужно
         
     }
